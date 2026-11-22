@@ -141,4 +141,34 @@ b = c
 
 # # # # # # # # # # # 
 
+# משימה מסכמת
+
+student_first_name = input("Enter student first name: ")
+student_last_name = input("Enter student last name: ")
+student_age = float(input("Enter student age: "))
+schoole = input("Enter schoole name: ")
+course_name = input("Enter course name: ")
+number_of_months = int(input("Course durations (Months): "))
+monthly_cost = float(input("Monthly price: "))
+
+print("""
+================================
+       STUDENT REGISTRATION
+================================
+""")
+print(f"Student: {student_first_name, student_last_name}") 
+print(f"Age: {student_age}")
+print(f"Institution: {schoole}")
+print(f"Course: {course_name}")
+print(f"Duration: {number_of_months} Months")
+print(f"Monthly Price: {monthly_cost}")
+
+print(f"Total Course Price: {monthly_cost * number_of_months}")
+
+print("""
+================================
+Registration completed!
+================================
+
+""")
 
