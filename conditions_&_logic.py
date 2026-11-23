@@ -277,7 +277,7 @@ def parking_lot():
     price = pricing[car_type] * hours
     if hours > 5.0:
         discount_percent = 0.15
-    elif hours > 1.0:
+    elif hours < 1.0:
         discount_percent = 0.1
     else:
         discount_percent = 0.0
