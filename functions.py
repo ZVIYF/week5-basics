@@ -503,4 +503,4 @@ def main_menu():
             case _:
                 print("Invalid choice")
 
-main_menu()
+# main_menu()
